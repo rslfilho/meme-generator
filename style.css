@@ -1,0 +1,96 @@
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: rgb(146 , 145 , 153);
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: inline-block;
+  padding: 40px;
+  background-color: white;
+  margin: 10px 30px;
+  border-radius: 20px;
+}
+
+#input div {
+  margin: 10px;
+}
+
+#meme-image-container {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid black;
+  position: relative;
+  margin: 20px;
+}
+
+#meme-image-container img {
+  width: 300px;
+  height: 300px;
+}
+
+#meme-image-container p {
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  text-shadow: black 5px 5px 5px;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+
+.custom-button {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  color: white;
+}
+
+#fire {
+  background-color: red;
+  border-radius: 10px;
+}
+
+#water {
+  background-color: blue;
+  border-radius: 10px;
+}
+
+#earth {
+  background-color: green;
+  border-radius: 10px;
+}
+
+#meme-ready {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.meme1-4 {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  padding: 1px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
